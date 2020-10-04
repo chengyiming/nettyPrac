@@ -8,7 +8,7 @@ import java.nio.channels.FileChannel;
  * @Date 2020/10/13
  * @author cym
  * @description
- * 数据的流向：str->bytebuffer->channel[channel包裹了fileoutputStream]->文件
+ * 数据的流向：str->bytebuffer->channel[fileoutputStream包裹了channel]->文件
  */
 public class NIOFileChannel01 {
     public static void main(String[] args) throws Exception{
