@@ -21,11 +21,11 @@ public class NIOFileChannel02 {
         //反转
         byteBuffer.flip();
         //读取缓冲区的内容,这里显示的是单个字节
-        byte[] dest = new byte[(int)file.length()];
-        byteBuffer.get(dest);
-        for(byte b : dest) {
-            System.out.print(b);
-        }
+//        byte[] dest = new byte[512];
+//        byteBuffer.get(dest);
+//        for(byte b : dest) {
+//            System.out.print(b);
+//        }
         //将字节转变成String，byteBuffer.array()可以统一取出缓冲区所有的字节
         System.out.println(new String(byteBuffer.array()));
         fileInputStream.close();

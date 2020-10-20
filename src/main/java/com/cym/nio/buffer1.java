@@ -1,4 +1,4 @@
 package com.cym.nio;
 
-public class buffer {
+public class buffer1 {
 }
